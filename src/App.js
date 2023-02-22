@@ -5,11 +5,10 @@ import {
 } from "react-router-dom"
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import NavBar from "./components/Navbar";
-
+import NavBar from "./components/Navbar/Navbar";
 import './App.css';
-import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,27 +1,18 @@
-html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
-}
-
 .sticky {
-  background-color: var(--bg-color-second);
-  transition: all 0.3s ease-out 0s;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+  background-color: var(--bg-color-blur);
   backdrop-filter: blur(15px);
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
 }
 
 .navbar {
-  transition: all 0.8s ease-out 0s;
   padding: 0.3rem 2rem;
   font-size: 1.2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.nav_theme{
-  margin-top: 6px;
-  color: var(--text-primary)
+.navbar, .sticky {
+  transition: all .3s ease-out 0s;
 }
 
 @media (max-width: 767px) {
@@ -98,7 +89,6 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: var(--text-primary);
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -122,6 +112,7 @@ html {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
+  color: var(--text-primary);
 }
 
 .navbar-nav .nav-item a:hover {
