@@ -6,6 +6,7 @@ import {
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import NavBar from "./components/Navbar/Navbar";
+import ScrollToTop from "./components/Utils/ScrollToTop";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
@@ -15,6 +16,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />

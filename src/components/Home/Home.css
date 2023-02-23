@@ -1,7 +1,6 @@
 .home-section {
   padding-bottom: 30px;
   padding-top: 30px;
-  background-color: var(--bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -13,5 +13,5 @@ code {
 }
 
 #root{
-  background-color: var(--bg-color);
+  background: var(--bg-color);
 }

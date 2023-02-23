@@ -1,13 +1,14 @@
 :root {
-  --bg-color: #282c34;
+  --bg-color: linear-gradient(180deg, rgba(40,44,52,1) 0%, rgba(27,18,2,1) 100%);
   --bg-color-second: #14213D;
   --bg-color-blur: #282c3491;
   --text-primary: #ffffff;
   --text-second: #FCA311;
+  --text-second: #fff6e7;
 }
 
 [data-theme="light"] {
-  --bg-color: #ffffff;
+  --bg-color: linear-gradient(0deg, rgba(255,227,183,1) 0%, rgba(255,246,231,1) 100%);;
   --bg-color-second: #E5E5E5;
   --bg-color-blur:#E5E5E591;
   --text-primary: #282c34;
